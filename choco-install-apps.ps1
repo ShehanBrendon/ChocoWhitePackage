@@ -8,7 +8,7 @@ $packagesBasic = @{
     bandizip='';
     notepadplusplus=''; 
     potplayer=''; 
-    adobereader='--params="/UpdateMode:4"';
+    # adobereader='--params="/UpdateMode:4"';
     #foxitreader='--ia="/MERGETASKS=!desktopicon,!displayinbrowser /COMPONENTS=*pdfviewer,*ffse,*installprint,!ffaddin,*ffspellcheck,!connectedpdf.!installprint\wordaddin,!installprint\pptaddin,!installprint\exceladdin /DIR=D:\Programme\choco\foxitreader"';
 
 # --- Browsers ---
@@ -29,11 +29,6 @@ $packagesBasic = @{
     #chocolateygui='';    
     #windirstat='';
 
-} 
-
-
-
-$packagesDev = @{
 # --- General ---
     vscode='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
     git='';
@@ -45,15 +40,17 @@ $packagesDev = @{
 # --- Cloud ---
     #'azure-cli'='';
     #'aws-vault'='';
+} 
 
-}
 
-$packagesGTN = @{
+
+$packagesDev = @{
 # --- General ---
     putty='';
-    'openvpn-connect'='';
+    # 'openvpn-connect'='';
     winscp='';
-
+    slack='';
+    pgadmin4='';
 }
 # --------------------------------------------------------------
 
